@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="containerCalculadora">
+        <div id="resultado"></div>
+        <div class="containerBotoes">
+            <div class="btnLimpar">
+                <button onclick="btnLimpar()">C</button>
+            </div>
+            <div>
+                <button onclick="btn7()">7</button>
+                <button onclick="btn8()">8</button>
+                <button onclick="btn9()">9</button>
+                <button onclick="btnDividir()">%</button>
+            </div>
+            <div>
+                <button onclick="btn4()">4</button>
+                <button onclick="btn5()">5</button>
+                <button onclick="btn6()">6</button>
+                <button onclick="btnMultiplicar()">X</button>
+            </div>
+            <div>
+                <button onclick="btn1()">1</button>
+                <button onclick="btn2()">2</button>
+                <button onclick="btn3()">3</button>
+                <button onclick="btnAdicao()">+</button>
+            </div>
+            <div>
+                <button onclick="btn0()">0</button>
+                <button onclick="btnPonto()">.</button>
+                <button onclick="btnResultado()">=</button>
+                <button onclick="btnSubtracao()">-</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculadora.js"></script>   
+</body>
+</html>
